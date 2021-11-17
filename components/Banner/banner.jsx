@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const banner = () => {
   return (
-    <div className="relative h-[300px] sm:h-[400px]  lg:h-[500px] xl:h-[600px] 2xl:h-[800px]">
+    <div className="relative h-[300px] sm:h-[500px]  lg:h-[500px] xl:h-[600px] 2xl:h-[800px]">
       {/* <Image
         className=""
         src="https://images.unsplash.com/photo-1636920170547-230f614781b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
@@ -11,9 +11,9 @@ const banner = () => {
         objectFit="cover"
       /> */}
       <img
-        src="https://images.unsplash.com/photo-1620938729373-ca137d8bdfcc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80"
         alt=""
-        className="h-[50rem] w-[100%] items-center"
+        src="https://images.unsplash.com/photo-1609260843286-9d8ad4f7e72c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80"
+        className="h-[50rem] w-[100%] items-center md:h-[600px] xl:h-[50rem] "
       />
       <div className="absolute text-center top-1/2 w-full ">
         <p className="text-sm sm:text-lg text-white">
